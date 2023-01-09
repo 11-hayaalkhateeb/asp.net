@@ -1,0 +1,29 @@
+﻿body {
+    background-image:url(image/about.jpg);
+}
+
+/* .text {position: absolute;
+box-shadow: 5px 10px 18px #06283D;
+display: inline-block;
+margin-left: 0%;
+margin-top:10%;
+height: 465px;
+width: 40%;}*/
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+    .about{
+        height: 485px;
+        width: 70%;
+      margin-left:50%;
+    }
+    }
+
+}
+    @media only screen and (min-width: 481px) and (max-width: 768px) {
+        .about {
+            width: 90%;
+            
+            margin-left: 30%;
+            margin-top: 19%;
+        }
+}

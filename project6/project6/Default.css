@@ -1,0 +1,90 @@
+﻿.cta {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+}
+
+    .cta:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        border-radius: 50px;
+        background: #06283D;
+        width: 45px;
+        height: 55px;
+        transition: all 0.3s ease;
+    }
+
+    .cta span {
+        position: relative;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        color: #dff6ff;
+    }
+
+    .cta svg {
+        position: relative;
+        top: 0;
+        margin-left: 50%;
+        margin-top:100%;
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke: #DFF6FF;
+        stroke-width: 2;
+        transform: translateX(-5px);
+        transition: all 0.3s ease;
+    }
+
+    .cta:hover:before {
+        width: 100%;
+        background: #06283D;
+    }
+
+    .cta:hover svg {
+        transform: translateX(0);
+    }
+
+    .cta:active {
+        transform: scale(0.95);
+    }
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: #B8AD95;
+    background-image: Url('image/lan.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height:600px;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 264px;
+}

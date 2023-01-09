@@ -1,0 +1,98 @@
+﻿body {
+  background-size:cover;
+}
+
+    .cta
+
+{
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+}
+
+        .cta:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            border-radius: 50px;
+            background: #06283D;
+            width: 45px;
+            height: 55px;
+            transition: all 0.3s ease;
+        }
+
+        .cta span {
+            position: relative;
+            font-family: "Ubuntu", sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            color: #dff6ff;
+        }
+
+        .cta svg {
+            position: relative;
+            top: 0;
+            margin-left: 10px;
+            fill: none;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke: #DFF6FF;
+            stroke-width: 2;
+            transform: translateX(-5px);
+            transition: all 0.3s ease;
+        }
+
+        .cta:hover:before {
+            width: 100%;
+            background: #06283D;
+        }
+
+.cta:hover svg {
+    transform: translateX(0);
+}
+
+.cta:active {
+    transform: scale(0.95);
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+
+    element.style {
+        margin: -15px;
+    }
+}
+/*//////////////////Together, we can bring health and hope to the world!
+Our mission is to identify, solicit, collect, sort and deliver medical services according to the urgent needs of the world.*/
+/*
+معا ، يمكننا تقديم الصحة والأمل للعالم!
+تتمثل مهمتنا في تحديد الخدمات الطبية والتماسها وجمعها وفرزها وتقديمها وفقا للاحتياجات الملحة للعالم.*/
+/*//////////////////////////////////////////////////////////////////////////*/
+/*Our Blog
+Every day, thousands of people die here at home and in the developing world because they do not have the most basic medical equipment. Since 2000, we have been working together to provide health care to everyone in need by providing donated medical equipment and services.
+
+*/
+/*معا...
+كل يوم، يموت الآلاف من الناس هنا في الوطن وفي العالم النامي .لانهم لا يملكون ابسط المعدات الطبيه . منذ عام 2000، نعمل معا على تقديم الرعاية الصحية لكل محتاج من خلال توفير المعدات الطبيه والخدمات الطبية المتبرع بها .
+*/
+/*//////////////////////////////////////////////////////////////////////////*/
+/*When our work began in 2000, our approach was simple. We provided donated medical equipment from hospitals and clinics only across Jordan. But over the past 22 years, we, thanks to many, have expanded our service globally, because we ultimately believe that where you live shouldn't determine whether you live. Today together we offer help to everyone in need */
+/*عندما بدأ عملنا في عام 2000 ، كان نهجنا بسيطا. قدمنا المعدات الطبية المتبرع بها من المستشفيات والعيادات فقط ع مستوى الاردن . ولكن على مدى السنوات ال22 الماضية ، قمنا وبفضل الكثيرون بتوسيع نطاق خدمتنا ع مستوى العالم ، لأننا نعتقد في النهاية أن المكان الذي تعيش فيه لا ينبغي أن يحدد ما إذا كنت تعيش. اليوم معا نقدم المساعده لكل محتاج */
+/*//////////////////////////////////////////////////////////////////////////*/
+/*
+delivering health & hope to the world*/
+/*//////////////////////////////////////////////////////////////////////////*/
+/*What is the process for donating medical equipment?*/
+/*يجب أن تذهب تبرعات المعدات الطبية إلى الشخص المحتاج بالفعل ونقوم نحن بمهمة استلام وتوصيل الخدمه بشكل مجاني*/
+/*Donations of medical equipment must go to the person who is really in need and we do the task of receiving and delivering the service free of charge
+*/
+/*What medical equipment is needed?*/
+المعدات المطلوبه Medical equipment is those tools such as wheelchair, hospital bed, Oxygen Cylinder, Crutch, Stretcher, Infusion Pump, and other tools. In general, this equipment is often seen in the hospital and health care organizations.
+
+
+
