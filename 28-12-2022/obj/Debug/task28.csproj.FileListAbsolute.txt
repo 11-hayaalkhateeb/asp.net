@@ -1,0 +1,2 @@
+C:\Users\dell\asp.net\asp.net\28-12-2022\28-12-2022\obj\Debug\task28.csproj.AssemblyReference.cache
+C:\Users\dell\asp.net\asp.net\28-12-2022\28-12-2022\obj\Debug\task28.csproj.CoreCompileInputs.cache
